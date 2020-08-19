@@ -1,4 +1,4 @@
-package com.bigyaa.rxjava.feature.adapter
+package com.bigyaa.rxjava.feature.shared.model.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bigyaa.rxjava.R
-import com.bigyaa.rxjava.feature.model.Result
+import com.bigyaa.rxjava.feature.shared.model.model.Result
 import com.bumptech.glide.Glide
 
 class PopularMoviesAdapter(val movies: List<Result>) : RecyclerView.Adapter<MoviesViewHolder>() {

@@ -5,10 +5,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigyaa.rxjava.R
-import com.bigyaa.rxjava.feature.adapter.PopularMoviesAdapter
-import com.bigyaa.rxjava.feature.adapter.TopRatedMoviesAdapter
-import com.bigyaa.rxjava.feature.model.PopularMoviesP
-import com.bigyaa.rxjava.feature.model.TopRatedMovies
+import com.bigyaa.rxjava.feature.shared.model.adapter.PopularMoviesAdapter
+import com.bigyaa.rxjava.feature.shared.model.adapter.TopRatedMoviesAdapter
+import com.bigyaa.rxjava.feature.shared.model.model.PopularMoviesP
+import com.bigyaa.rxjava.feature.shared.model.model.TopRatedMovies
 import com.hannesdorfmann.mosby3.mvp.MvpActivity
 import kotlinx.android.synthetic.main.activity_main_multiple.*
 

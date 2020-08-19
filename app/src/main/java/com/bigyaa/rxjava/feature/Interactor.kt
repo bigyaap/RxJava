@@ -2,9 +2,9 @@ package com.bigyaa.rxjava.feature
 
 import android.util.Log
 import com.bigyaa.rxjava.feature.main.MainPresenter
-import com.bigyaa.rxjava.feature.model.PopularMoviesP
-import com.bigyaa.rxjava.feature.model.ResultMovies
-import com.bigyaa.rxjava.feature.model.TopRatedMovies
+import com.bigyaa.rxjava.feature.shared.model.model.PopularMoviesP
+import com.bigyaa.rxjava.feature.shared.model.model.ResultMovies
+import com.bigyaa.rxjava.feature.shared.model.model.TopRatedMovies
 import com.bigyaa.rxjava.network.ServiceBuilder
 import io.reactivex.Observable
 import io.reactivex.Observer

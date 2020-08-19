@@ -1,4 +1,4 @@
-package com.bigyaa.rxjava.feature.model
+package com.bigyaa.rxjava.feature.shared.model.model
 
 data class TopRatedMovies(
     val results: List<ResultP>

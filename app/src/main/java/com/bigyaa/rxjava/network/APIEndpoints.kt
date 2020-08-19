@@ -1,7 +1,7 @@
 package com.bigyaa.rxjava.network
 
-import com.bigyaa.rxjava.feature.model.PopularMoviesP
-import com.bigyaa.rxjava.feature.model.TopRatedMovies
+import com.bigyaa.rxjava.feature.shared.model.model.PopularMoviesP
+import com.bigyaa.rxjava.feature.shared.model.model.TopRatedMovies
 import io.reactivex.Observable
 import retrofit2.http.GET
 import retrofit2.http.Query
