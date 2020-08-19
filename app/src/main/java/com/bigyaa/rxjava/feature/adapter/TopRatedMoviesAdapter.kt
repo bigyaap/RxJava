@@ -29,7 +29,7 @@ class TopRatedMoviesAdapter(val movies: List<ResultP>) :
 }
 
 class TopRatedMoviesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    private val photo: ImageView = itemView.findViewById(R.id.top_movie_photo)
+    private val photo: ImageView = itemView.findViewById(R.id.imgTopMoviePhoto)
 //    private val name: TextView = itemView.findViewById(R.id.movie_title)
 //    private val overview: TextView = itemView.findViewById(R.id.movie_overview)
 //    private val popularity: TextView = itemView.findViewById(R.id.movie_rating)

@@ -14,34 +14,34 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/top_movie_photo"
+                android:id="@+id/imgTopMoviePhoto"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
                 android:contentDescription="Movie Image" />
 
             <TextView
-                android:id="@+id/top_movie_title"
+                android:id="@+id/txtTopMovieTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/top_movie_photo"
+                android:layout_below="@+id/imgTopMoviePhoto"
                 android:layout_margin="5dp"
                 android:text="Title : "
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/top_movie_overview"
+                android:id="@+id/txtTopMovieOverview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/top_movie_title"
+                android:layout_below="@+id/txtTopMovieTitle"
                 android:layout_margin="5dp"
                 android:text="OverView : " />
 
             <TextView
-                android:id="@+id/top_movie_rating"
+                android:id="@+id/txtTopMovieRating"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/top_movie_overview"
+                android:layout_below="@+id/txtTopMovieOverview"
                 android:layout_margin="5dp"
                 android:text="Rating : "
                 android:textSize="15sp" />
