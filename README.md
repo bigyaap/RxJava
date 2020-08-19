@@ -1,1 +1,1 @@
-"# Api call using RXjava and Retrofit2" 
+# Api call using RXjava and Retrofit2
